@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.continer {
+    background-color:rgba(252, 249, 249, 0.918);
+    width :500px;
+    height: 250px;
+    
+}
+h4 {
+    padding: 10px 20px 5px;
+}
+.Tabs {
+    list-style: none;
+    display: flex;
+    padding: 0px 20px;
+    margin: 0px ;
+    color: rgb(107, 107, 107);
+    
+    
+}
+.Tabs li {
+background-color: rgb(238, 235, 235);
+padding: 5px 14px 15px;
+border-right: 1px solid white;
+cursor: pointer;
+transition: 0.2s;
+border: 1.5px solid rgb(230, 229, 229);
+width : 65px;
+height: 5px;
+text-align: center;
+font-size: 13px;
+} 
+
+.Tabs li:active,
+.Tabs li:hover {
+    background-color: rgb(255, 253, 253);
+    border: none;
+    border-top: 2px solid rgb(4, 193, 240);
+    border-left: 1px solid rgb(230, 229, 229);;
+    color: rgb(4, 193, 240);
+}
+.content {
+    background-color: rgb(255, 253, 253);
+    padding: 20px;
+    margin:0 20px;
+    height: 65px;
+    border: 1px solid rgb(230, 229, 229);
+    border-top: none;
+    color: rgb(107, 107, 107);
+}
+
+.content > div:not(:first-child) {
+    display: none;
+}
